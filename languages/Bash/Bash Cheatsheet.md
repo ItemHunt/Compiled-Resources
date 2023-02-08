@@ -29,7 +29,7 @@ for future reference
 - [Git Branches](https://github.com/ItemHunt/Bash-Cheatsheet#git-branches)
 - [User-Setting Modification](https://github.com/ItemHunt/Bash-Cheatsheet#user-setting-modification)
 - [Others](https://github.com/ItemHunt/Bash-Cheatsheet#others-1)
-
+test
 ### Bash Shortcut Keys and Symbols
 - [Symbols](https://github.com/ItemHunt/Bash-Cheatsheet#symbols)
 - [Bash Shortcuts](https://github.com/ItemHunt/Bash-Cheatsheet#bash-shortcuts)
