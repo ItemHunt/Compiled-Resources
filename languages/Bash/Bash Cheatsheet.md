@@ -4,6 +4,7 @@
 Bash is a command-line interface language that is regularly used in things like Linux, Git Bash, and others. In this cheatsheet, you can find a list of Bash commands that you can use as well as other useful commands (which may require downloading additional things for them to work). The cheatsheet will also contain a list of learning resources you can refer to if you want to learn or enhance your understanding of Bash.
 
 <!--
+test
 for future reference
 ## Contributors
 <a href="https://github.com/ItemHunt/Bash-Cheatsheet/graphs/contributors">
