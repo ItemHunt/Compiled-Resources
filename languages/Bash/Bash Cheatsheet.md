@@ -84,6 +84,8 @@ test
 - **$ mv \<input>-** Used to move or rename files
 - **$ cp \<input>-** Used to copy files or directories
 - **$ touch \<file.ext> -** Allows you to create a file of your choice
+- **$ chmod -** Changes the permissions of a file or directory
+- **$ chown -** Changes the owner and group of a file or directory
 
 #### Networking & Servers
 - **$ ifconfig -** Used to deal with the network interface
@@ -94,11 +96,13 @@ test
 - **$ python3 -m http.server -** Used to start a Python3 web server on TCP port 8000
 
 #### Package Management
-- **$ dpkg \<input> -** Low-level package manager used to install, remove, or configure Debian-based packages
-- **$ apt \<input> -** High-level package manager
-- **$ aptitude \<input> -** Another high-level package manager that can be used as an alternative to apt
-- **$ snap -** Used to install, remove, and configure snap packages (Note that you may need to install snap)
-- **$ flatpak -** Used to install, remove, and configure flatpak packages (Note that you may need to install flatpak)
+- **$ dpkg -** Low-level package manager used to install, remove, or configure Debian-based packages
+- **$ apt -** High-level package manager
+- **$ aptitude -** Another high-level package manager that can be used as an alternative to apt
+- **$ pacman -** Package manager for Arch Linux or Arch-based systems
+- **$ yay -** Package manager for accessing the Arch User Respository (AUR)
+- **$ snap -** Used to install, remove, and configure snap packages 
+- **$ flatpak -** Used to install, remove, and configure flatpak packages
 - **$ gem -** Standard package manager for Ruby
 - **$ pip -** Standard package manager for Python
 
@@ -118,6 +122,7 @@ test
 - **$ tree -** Command to list the things inside of a directory recursively
 - **$ nano -** Used to open and use Nano, a terminal based text editor that is easier to use than Vim
 - **$ vim -** Used to open and use Vim, a terminal based text editor that can do a lot of stuff but is difficult to use
+- **$ nvim -** Used to open and use NeoVim, the upgraded version of Vim
 - **$ more -** Pager used to read STDOUT or files
 - **$ less -** Upgraded version of the more command
 - **$ head -** Prints the first ten lines of STDOUT or a file
@@ -129,20 +134,17 @@ test
 - **$ awk -** Pattern scanning and processing language
 - **$ sed -** A stream editor for the transformation and filtering of text
 - **$ wc -** Prints newline, word, and byte counts for a provided input
-- **$ chmod -** Changes the permissions of a file or directory
-- **$ chown -** Changes the owner and group of a file or directory
-
 
 ### Git Bash
 #### General Commands
 - **$ git -** Version control system utility
 - **$ git status -** Shows you the status of your Git repository (what is staged, unstaged, new, and what was modified recently)
-- **$ git add '(“.” for all or specify what file you are staging)' -** stages file/s
+- **$ git add \<input> -** stages file/s
 - **$ git init -** Initializes or activates or converts the current working directory into a git repository
 - **$ git commit -m \<insert commit comment> -** Shortcut for committing files/changes and adding a comment without going into your text editor (e.g. Vim, Nano)
-- **$ git push -u origin \<Name of the main branch of the remote repository> -** Pushes all contents of the master branch into the remote repository your local repository is connected to. This allows your remote repository files to be updated or to increase/decrease in number
+- **$ git push -u origin -** Pushes all contents of the master branch into the remote repository your local repository is connected to. This allows your remote repository files to be updated or to increase/decrease in number
 - **$ git pull -** Pulls all files/changes made on the remote repository into your local repository
-- **$ git remote add origin \<insert the link github provides you for this specific command> -** Allows you to connect your local repository into a remote repository (or online repository)
+- **$ git remote add origin \<insert remote repo link> -** Allows you to connect your local repository into a remote repository (or online repository)
 
 #### Git Branches
 - **$ git branch \<branch name> -** Helps you create a new independent branch on your local repository
@@ -156,7 +158,7 @@ test
 - **$ git config –global user.name \<insert username> -** Allows you to set your Git name
 
 #### Others
-- **$ git clone '(http, ssh, or url link)' -** Allows you to clone an existing repository into your system
+- **$ git clone \<link of git repo> -** Allows you to clone an existing repository into your system
 - **$ git remote -** Shows you if your local repository is connected to a remote repository (or online repository)
 - **$ ssh-keygen -t rsa -C \<insert your Github Email> -** Allows you to generate a ssh key that you can connect to your github. This allows you to have a secure way of interacting with your remote repository using your local repository
 - **$ git log -** Shows you all previous saved changes
