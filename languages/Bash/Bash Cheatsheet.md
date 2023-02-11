@@ -19,7 +19,7 @@ for future reference
 - [Essentials](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#essentials)
 - [Search & Navigation](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#search--navigation)
 - [System Details & Modification](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#system-details--modification)
-- [Directory or File Use/Modification/Deletion/Creation](hhttps://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#directory-or-file-usemodificationdeletioncreation)
+- [Directory or File Use/Modification/Deletion/Creation](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#directory-or-file-usemodificationdeletioncreation)
 - [Networking & Servers](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#networking--servers)
 - [Package Management](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#package-management)
 - [Process Management](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#process-management)
