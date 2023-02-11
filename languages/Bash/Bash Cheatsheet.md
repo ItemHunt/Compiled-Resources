@@ -13,32 +13,32 @@ for future reference
 ->
 <!-- Contributors section made with [contrib.rocks](https://contrib.rocks). -->
 
-<!-- 
+
 ## Table of Contents
 ### General bash
-- [Essentials](https://github.com/ItemHunt/Bash-Cheatsheet#essentials)
-- [Search & Navigation](https://github.com/ItemHunt/Bash-Cheatsheet#search--navigation)
-- [System Details & Modification](https://github.com/ItemHunt/Bash-Cheatsheet#system-details--modification)
-- [Directory or File Use/Modification/Deletion/Creation](https://github.com/ItemHunt/Bash-Cheatsheet#directory-or-file-usemodificationdeletioncreation)
-- [Networking & Servers](https://github.com/ItemHunt/Bash-Cheatsheet#networking--servers)
-- [Package Management](https://github.com/ItemHunt/Bash-Cheatsheet#package-management)
-- [Process Management](https://github.com/ItemHunt/Bash-Cheatsheet#process-management)
-- [Others](https://github.com/ItemHunt/Bash-Cheatsheet#others)
+- [Essentials](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#essentials)
+- [Search & Navigation](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#search--navigation)
+- [System Details & Modification](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#system-details--modification)
+- [Directory or File Use/Modification/Deletion/Creation](hhttps://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#directory-or-file-usemodificationdeletioncreation)
+- [Networking & Servers](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#networking--servers)
+- [Package Management](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#package-management)
+- [Process Management](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#process-management)
+- [Others](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#others)
 
 ### Git Bash
-- [General Commands](https://github.com/ItemHunt/Bash-Cheatsheet#networking--servers)
-- [Git Branches](https://github.com/ItemHunt/Bash-Cheatsheet#git-branches)
-- [User-Setting Modification](https://github.com/ItemHunt/Bash-Cheatsheet#user-setting-modification)
-- [Others](https://github.com/ItemHunt/Bash-Cheatsheet#others-1)
-test
+- [General Commands](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#general-commands)
+- [Git Branches](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#git-branches)
+- [User-Setting Modification](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#user-setting-modification)
+- [Others](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#others-1)
+
 ### Bash Shortcut Keys and Symbols
-- [Symbols](https://github.com/ItemHunt/Bash-Cheatsheet#symbols)
-- [Bash Shortcuts](https://github.com/ItemHunt/Bash-Cheatsheet#bash-shortcuts)
+- [Symbols](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#symbols)
+- [Bash Shortcuts](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#bash-shortcuts)
 
 ### Additional Information & Learning Resources
-- [Additional Information For Bash](https://github.com/ItemHunt/Bash-Cheatsheet#additional-information-for-bash)
-- [Learning Resources List](https://github.com/ItemHunt/Bash-Cheatsheet#learning-resources-list)
--->
+- [Additional Information For Bash](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#learning-resources-list)
+- [Learning Resources List](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#learning-resources-list)
+
 
 ## Cheatsheet
 ### General Bash
