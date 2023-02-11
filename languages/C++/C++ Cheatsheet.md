@@ -1,5 +1,5 @@
-# C++ Cheatsheet
-## Notice
+# **C++ Cheatsheet**
+## **Notice**
 The C++ cheatsheet will be revised, this might take awhile.
 <!--
 
@@ -179,7 +179,7 @@ creates a comment box
 - For new C++ codes, it is recommended that you explore the different C++ libraries and then find a cheatsheet for them or a guide/documentation.
 
 -->
-## Learning Resources List
+## **Learning Resources**
 - Free Code Camp C++ Tutorial for Beginners - Full Course (video) https://www.youtube.com/watch?v=vLnPwxZdW4Y
 - Tutorialspoint C++ Tutorial (website) https://www.tutorialspoint.com/cplusplus/index.htm
 - Azure Cloud C++ development (website) https://azure.microsoft.com/en-in/develop/cpp/

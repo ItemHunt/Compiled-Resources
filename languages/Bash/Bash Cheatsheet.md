@@ -1,6 +1,6 @@
-# Bash Cheatsheet
+# **Bash Cheatsheet**
 
-## Introduction
+## **Introduction**
 Bash is a command-line interface language that is regularly used in things like Linux, Git Bash, and others. In this cheatsheet, you can find a list of Bash commands that you can use as well as other useful commands (which may require downloading additional things for them to work). The cheatsheet will also contain a list of learning resources you can refer to if you want to learn or enhance your understanding of Bash.
 
 <!--
@@ -14,8 +14,8 @@ for future reference
 <!-- Contributors section made with [contrib.rocks](https://contrib.rocks). -->
 
 
-## Table of Contents
-### General bash
+## **Table of Contents**
+### **General bash**
 - [Essentials](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#essentials)
 - [Search & Navigation](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#search--navigation)
 - [System Details & Modification](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#system-details--modification)
@@ -25,24 +25,24 @@ for future reference
 - [Process Management](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#process-management)
 - [Others](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#others)
 
-### Git Bash
+### **Git Bash**
 - [General Commands](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#general-commands)
 - [Git Branches](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#git-branches)
 - [User-Setting Modification](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#user-setting-modification)
 - [Others](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#others-1)
 
-### Bash Shortcut Keys and Symbols
+### **Bash Shortcut Keys and Symbols**
 - [Symbols](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#symbols)
 - [Bash Shortcuts](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#bash-shortcuts)
 
-### Additional Information & Learning Resources
+### **Additional Information & Learning Resources**
 - [Additional Information For Bash](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#learning-resources-list)
 - [Learning Resources List](https://github.com/ItemHunt/Compiled-Resources/blob/main/languages/Bash/Bash%20Cheatsheet.md#learning-resources-list)
 
 
-## Cheatsheet
-### General Bash
-#### Essentials
+## **Cheatsheet**
+### **General Bash**
+#### **Essentials**
 - **$ man \<cmd> -** Displays a detailed explanation of the specified command
 - **$ \<cmd> --help** Displays a brief explanation of the specified command
 - **$ apropos \<keyword> -** Searches for a command that correlates to the specified keyword
@@ -50,7 +50,7 @@ for future reference
 - **$ clear -** Clears the terminal
 - **$ help -** Shows a help menu
 
-#### Search & Navigation
+#### **Search & Navigation**
 - **$ pwd -** Prints current working directory
 - **$ ls -** List all items in current working directory
 - **$ cd \<direcotory/../-> -** Change working directory, not providing an argument makes you return to your user home directory
@@ -60,7 +60,7 @@ for future reference
 - **$ find \<input>-** Searches for files in a directory hierarchy
 - **$ grep \<input>-** Searches for specific results that have given patterns
 
-#### System Details & Modification
+#### **System Details & Modification**
 - **$ whoami -** Tells you what user you are logged in as
 - **$ id -** Gives user identity
 - **$ hostname -** Tells you the name of the current host system
@@ -76,7 +76,7 @@ for future reference
 - **$ lsof -** Lists opened files
 - **$ lspci -** Lists PCI devices
 
-#### Directory or File Use/Modification/Deletion/Creation
+#### **Directory or File Use/Modification/Deletion/Creation**
 - **$ mkdir \<name)> -** Creates a directory inside the current branch of the repository
 - **$ rmdir \<name> -** Removes a target directory
 - **$ rm \<name> -** Removes a target file/directory
@@ -87,7 +87,7 @@ for future reference
 - **$ chmod -** Changes the permissions of a file or directory
 - **$ chown -** Changes the owner and group of a file or directory
 
-#### Networking & Servers
+#### **Networking & Servers**
 - **$ ifconfig -** Used to deal with the network interface
 - **$ ip -** Used to deal with your networking
 - **$ netstat -** Shows network status
@@ -95,7 +95,7 @@ for future reference
 - **$ wget \<input>-** Can be used instead of 'curl' to get files from FTP or HTTP server
 - **$ python3 -m http.server -** Used to start a Python3 web server on TCP port 8000
 
-#### Package Management
+#### **Package Management**
 - **$ dpkg -** Low-level package manager used to install, remove, or configure Debian-based packages
 - **$ apt -** High-level package manager
 - **$ aptitude -** Another high-level package manager that can be used as an alternative to apt
@@ -106,7 +106,7 @@ for future reference
 - **$ gem -** Standard package manager for Ruby
 - **$ pip -** Standard package manager for Python
 
-#### Process Management
+#### **Process Management**
 - **$ systemctl -** Used to manage processes and daemons
 - **$ ps -** Outputs current processes
 - **$ journalctl -** Shows process journal
@@ -115,7 +115,7 @@ for future reference
 - **$ jobs -** Outputs a list of all processes running in the background
 - **$ fg -** Places a process into the foreground
 
-#### Others
+#### **Others**
 - **$ ss -** Used to investigate sockets
 - **$ who -** Shows who is currently logged in
 - **$ env -** Prints the environtment or sets and then runs a commands
@@ -135,8 +135,8 @@ for future reference
 - **$ sed -** A stream editor for the transformation and filtering of text
 - **$ wc -** Prints newline, word, and byte counts for a provided input
 
-### Git Bash
-#### General Commands
+### **Git Bash**
+#### **General Commands**
 - **$ git -** Version control system utility
 - **$ git status -** Shows you the status of your Git repository (what is staged, unstaged, new, and what was modified recently)
 - **$ git add \<input> -** stages file/s
@@ -146,30 +146,30 @@ for future reference
 - **$ git pull -** Pulls all files/changes made on the remote repository into your local repository
 - **$ git remote add origin \<insert remote repo link> -** Allows you to connect your local repository into a remote repository (or online repository)
 
-#### Git Branches
+#### **Git Branches**
 - **$ git branch \<branch name> -** Helps you create a new independent branch on your local repository
 - **$ git merge \<branch name> -** Allows you to merge a branch into the master branch
 - **$ git checkout \<branch name> -** Switches your git repository branch to the specified branch
 
-#### User Setting Modification
+#### **User Setting Modification**
 - **$ git config –global core.editor \<insert editor you want eg. vim, nano, etc> -** Helps you change your text editor
 - **$ git rm –cached \<name of file with format> -** Unstages a specified file
 - **$ git config –global user.email \<insert your email> -** Allows you to set your Git email
 - **$ git config –global user.name \<insert username> -** Allows you to set your Git name
 
-#### Others
+#### **Others**
 - **$ git clone \<link of git repo> -** Allows you to clone an existing repository into your system
 - **$ git remote -** Shows you if your local repository is connected to a remote repository (or online repository)
 - **$ ssh-keygen -t rsa -C \<insert your Github Email> -** Allows you to generate a ssh key that you can connect to your github. This allows you to have a secure way of interacting with your remote repository using your local repository
 - **$ git log -** Shows you all previous saved changes
 
 
-### Bash Shortcut Keys and Symbols
-#### Symbols
+### **Bash Shortcut Keys and Symbols**
+#### **Symbols**
 - **&& -** Stands for 'and' in programming. You can use this to trigger multiple different commands in the same time
 - **|| -** Stands for 'or' in programming. You can use this to trigger commands based off conditions. For example, if the first command does not work, the second will run instead
 
-#### Bash Shortcuts
+#### **Bash Shortcuts**
 - **arrow up/down** Key on the bash terminal allows you to check and navigate previously used commands
 - **ctrl + l** When in the bash terminal is the shortcut way to clearing your terminal screen
 - **q** When in the bash terminal allows you to exit whatever your stuck to (like a log or something) and return to the position where you can execute commands
@@ -192,18 +192,18 @@ for future reference
 - **ctrl + z -** Closes the current process by sending a SIGTSTP signal
 - **Alt + Tab -** Switch between opened applications
 
-## Additional Information For Bash
+## **Additional Information For Bash**
 - **.bashrc -** There is this dot file called .bashrc in the user home directory which you can use to create aliases which works like keywords to help trigger a specific command/set of commands
 
-### Additional Information for Git Bash
+### **Additional Information for Git Bash**
 - **.gitignore -** Is a file that allows you to have Git ignore specific files or folders in your local repository. To use it, simply put the file name or folder that you want to be ignored. If you have a text file called "Text.txt" just type its name inside .gitignore to have Git ignore that specific file
 
-## Learning Resources List
-### Bash 
+## **Learning Resources**
+### **Bash**
 - Linux Fundamentals (video) https://www.youtube.com/playlist?list=PLIhvC56v63IJIujb5cyE13oLuyORZpdkL
 - HTB Academy Linux Fundamentals (website) https://academy.hackthebox.com/module/details/18
 
-### Git Bash
+### **Git Bash**
 - Git Documentation Link (website) https://git-scm.com/doc
 - GitHub Documentation Link (website) https://docs.github.com/en
 - Easy To Understand Beginner Guide to Git (video) https://www.youtube.com/watch?v=SWYqp7iY_Tc

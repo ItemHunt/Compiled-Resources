@@ -1,5 +1,5 @@
 # **Python Cheatsheet**
-## Notice
+## **Notice**
 This cheatsheet will be revised, this will take awhile
 <!--
 ## **Introduction**
@@ -177,7 +177,7 @@ Module name: *random*
 - You can put tupples inside of arrays and the other way around too
 - You can find a list of all the standard Python modules via this link https://docs.python.org/3/py-modindex.html
 -->
-## **Learning Resources List**
+## **Learning Resources**
 - FCC Python Course for Beginners (video) https://www.youtube.com/watch?v=rfscVS0vtbw
 - FCC Python Intermediate Course (video) https://www.youtube.com/watch?v=HGOBQPFzWKo
 - FCC Python Full University Course (video) https://www.youtube.com/watch?v=8DvywoWv6fI
